@@ -83,7 +83,6 @@ const Hero = () => {
   const getVideoSrc = (index) => {
     return `/videos/hero-${index}.mp4`;
   };
-  console.log("currentr", currentIndex);
 
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
