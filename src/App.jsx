@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navigation from "./components/Navigation";
 
@@ -8,6 +9,7 @@ const App = () => {
       <Navigation />
       <Hero />
       <About />
+      <Features />
     </>
   );
 };
